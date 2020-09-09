@@ -13,7 +13,7 @@ const auth = req =>
     resolve(authorized)
   })
 
-const serveHandler = serveStatic(__dirname + '/dist')
+const serveHandler = serveStatic(__dirname + '/public')
 const serve = (req, res, handle404) => new Promise(() => serveHandler(req, res, handle404))
 
 /*
