@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>Vercel Deploy</p>
+    <p>Vercel Deploy Test</p>
   </div>
 </template>
 
